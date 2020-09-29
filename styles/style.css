@@ -54,19 +54,13 @@ section {
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    font-family: 'Lobster';
+    font-size: 30px;
 }
-
-footer {
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    box-shadow: var(--shadow);
-}
-
 
 h1 {
     font-size: 3em;
@@ -82,22 +76,22 @@ h2 {
 
 ol {
     list-style: upper-roman;
+    font-family: 'Lobster';
 }
 
 ul {
     list-style: none;
 }
-/* .gutter-right {
-    margin-right: 20px;
+
+#quiz-results {
+    font-weight: bold;
+    font-family: 'Lobster';
+    font-size: 16px;
 }
 
-.main-logo {
-    animation: pulse 5s infinite ease-in-out;
-} */
-
-/* header img {
-    height: var(--header-height);
-} */
+.hidden {
+    display: none;
+}
 
 .main-section {
     font-size: 18px;
