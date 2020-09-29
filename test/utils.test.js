@@ -13,8 +13,8 @@ test('translateToAYes should take in a yes-like input and return true', (expect)
     expect.equal(expected, actual);
 });
 
-test(translateToAYes should take in a no-like input and return false' (expect) => {
-    const no = 'nahhhh'
+test('translateToAYes should take in a no-like input and return false', (expect) => {
+    const no = 'nahhhh';
     const expected = false;
 
     const actual = translateToAYes(no);
